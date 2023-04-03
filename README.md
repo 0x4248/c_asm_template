@@ -1,8 +1,8 @@
-# C ASM Template
+# 💻 C ASM Template
 
 This is a template for a C project that uses an assembly file for the startup code.
 
-## Folder structure
+## 📂 Folder structure
 
 The folder structure is as follows:
 
@@ -23,7 +23,7 @@ The folder structure is as follows:
     └── main.c              <- Main C file
 ```
 
-## How it works
+## ❓ How it works
 
 When the program is started the assembly file is executed first. Lets use the X86_64 assembly file as an example. The assembly file contains the following code:
 
@@ -55,9 +55,9 @@ int program() {
 
 When the C program returns the assembly file will call the exit syscall with the return value of the program function.
 
-## How to build
+## 🔨 How to build
 
-### x86_64
+### 🖥️ x86_64
 
 You need to set the `ARCH` variable in `config.mk` to `x86_64` and run `make`.
 
@@ -77,7 +77,7 @@ make
 ```
 
 
-### aarch64
+### 🖥️ aarch64
 
 You need to set the `ARCH` variable in `config.mk` to `aarch64` and run `make`.
 
@@ -88,7 +88,7 @@ AS = as
 CC = gcc
 ```
 
-> **Note:**
+> **Note**
 >
 > If you are running on aarch64 you need to set the as and cc variables to the cross compiler.
 
@@ -96,7 +96,7 @@ CC = gcc
 make
 ```
 
-## How to run
+## 🏃‍♂️ How to run
 
 To run the program you need to execute the following command:
 
@@ -104,7 +104,7 @@ To run the program you need to execute the following command:
 ./main
 ```
 
-## How to clean
+## 🧽 How to clean
 
 To clean the project you need to execute the following command:
 
