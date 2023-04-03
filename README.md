@@ -31,11 +31,11 @@ When the program is started the assembly file is executed first. Lets use the X8
 .extern program
 
 main:
-    call program        /* Call the program function */
-    movl %eax, %ebx     /* Move the return value to ebx */
-    movl $60, %eax      /* Move the exit syscall number to eax */
-    movl %ebx, %ebx     /* Move the return value to ebx */
-    syscall             /* Call the exit syscall */
+    call program
+    movl %eax, %ebx
+    movl $60, %eax
+    movl %ebx, %ebx
+    syscall
 ```
 
 Then the C file is compiled and linked with the assembly file. The C file contains the following code:
