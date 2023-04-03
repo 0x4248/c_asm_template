@@ -68,7 +68,7 @@ AS = as
 CC = gcc
 ```
 
-> **Note:**
+> **Note**
 >
 > If you are running on aarch64 you need to set the as and cc variables to the cross compiler.
 
