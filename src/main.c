@@ -9,6 +9,7 @@
 */
 
 #include <stdio.h>
+#include "add.h"
 
 /**
  * program - the main c function
@@ -19,6 +20,10 @@
  * will return the value to the operating system.
 */
 int program() {
+    int a = 1;
+    int b = 2;
+    int c = add(a, b);
     printf("Hello World!\n");
+    printf("1 + 2 = %d\n", c);
     return 0;
 }
