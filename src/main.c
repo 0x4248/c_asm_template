@@ -19,11 +19,15 @@
  * assembly entry point. The assembly entry point 
  * will return the value to the operating system.
 */
-int program() {
+int program(int argc, char **argv) {
     int a = 1;
     int b = 2;
     int c = add(a, b);
     printf("Hello World!\n");
+    printf("argc: %d\n" , argc);
+    for (int i = 0; i < argc; i++) {
+        printf("argv[%d]: %s\n", i, argv[i]);
+    }
     printf("1 + 2 = %d\n", c);
     return 0;
 }
