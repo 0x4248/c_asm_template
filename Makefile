@@ -34,3 +34,8 @@ $(OBJDIR):
 
 clean:
 	rm -rf $(OBJDIR) $(TARGET)
+
+help:
+	@echo "make        - build the program"
+	@echo "make clean  - remove all build files"
+	@echo "make help   - show this help message"
