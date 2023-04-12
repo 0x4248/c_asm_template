@@ -4,7 +4,7 @@
  * Main Startup for x86_64 machines
  * This program calls the function program() 
  * and then exits with the return value
-*/
+ */
 
 .section .text
 
@@ -14,7 +14,7 @@
 
 /**
  * Main startup code
-*/
+ */
 main:
     call program        /* Call the program function */
     movl %eax, %ebx     /* Move the return value to ebx */

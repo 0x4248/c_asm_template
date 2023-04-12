@@ -4,7 +4,7 @@
  * Main Startup for aarch64 machines
  * This program calls the function program() 
  * and then exits with the return value
-*/
+ */
 
 .extern program
 
@@ -12,7 +12,7 @@
 
 /**
  * Main startup code
-*/
+ */
 main:
     mov x0, x0
     bl program  // call program
