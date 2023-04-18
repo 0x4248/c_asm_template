@@ -1,7 +1,8 @@
 /**
  * C ASM Template (main.c)
  * Github: https://www.github.com/awesomelewis2007/c_asm_template
- *
+ * By: Lewis Evans
+ * 
  * Main C file. This file is compiled into an object file and
  * linked with the assembly entry point. The assembly entry
  * point will call the program function and return the value
