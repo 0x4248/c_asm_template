@@ -1,6 +1,7 @@
 /**
  * C ASM Template (startup.asm) [aarch64]
  * Github: https://www.github.com/awesomelewis2007/c_asm_template
+ * Licence: GPL-3.0
  * By: Lewis Evans
  *
  * Main Startup for aarch64 machines
