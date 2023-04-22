@@ -1,6 +1,6 @@
 # C ASM Template (Makefile)
 # Github: https://www.github.com/awesomelewis2007/c_asm_template
-# Licence: GPL-v3.0
+# Licence: GPL-3.0
 # By: Lewis Evans
 
 TARGET = program
