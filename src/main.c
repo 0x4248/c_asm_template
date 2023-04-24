@@ -16,6 +16,10 @@
 /**
  * program - the main c function
  *
+ * @param argc - number of arguments
+ * @param argv - array of arguments
+ * @return return value to the operating system
+ * 
  * This function is called by the assembly entry
  * point. The return value is passed back to the
  * assembly entry point. The assembly entry point
