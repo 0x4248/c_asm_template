@@ -1,7 +1,7 @@
 /**
  * C ASM Template (main.c)
  * Github: https://www.github.com/awesomelewis2007/c_asm_template
- * Licence: GPL-3.0
+ * Licence: GNU General Public License v3.0
  * By: Lewis Evans
  *
  * Main C file. This file is compiled into an object file and
