@@ -111,3 +111,7 @@ To clean the project you need to execute the following command:
 ```bash
 make clean
 ```
+
+## 📝 License
+
+This project is licensed under the GPL-3.0 License - see the [LICENSE](LICENSE) file for details
