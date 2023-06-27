@@ -1,6 +1,6 @@
 # C ASM Template (config.mk)
 # Main config file for C ASM Template
-# Github: https://www.github.com/awesomelewis2007/c_asm_template
+# Github: https://www.github.com/lewisevans2007/c_asm_template
 # Licence: GNU General Public License v3.0
 # By: Lewis Evans
 
