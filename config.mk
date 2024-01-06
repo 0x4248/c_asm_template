@@ -7,7 +7,7 @@
 # Target
 # For x86_64 put in ARCH = x86_64
 # For aarch64 put in ARCH = aarch64
-ARCH = x86_64
+ARCH = aarch64
 
 CC = gcc
 AS = as
