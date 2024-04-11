@@ -1,8 +1,8 @@
 /**
  * C ASM Template (main.c)
- * Github: https://www.github.com/lewisevans2007/c_asm_template
+ * Github: https://www.github.com/0x4248/c_asm_template
  * Licence: GNU General Public License v3.0
- * By: Lewis Evans
+ * By: 0x4248
  *
  * Main C file. This file is compiled into an object file and
  * linked with the assembly entry point. The assembly entry

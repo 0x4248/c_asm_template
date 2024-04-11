@@ -1,8 +1,8 @@
 /**
  * C ASM Template (startup.asm) [X86_64]
- * Github: https://www.github.com/lewisevans2007/c_asm_template
+ * Github: https://www.github.com/0x4248/c_asm_template
  * Licence: GNU General Public License v3.0
- * By: Lewis Evans
+ * By: 0x4248
  *
  * Main Startup for x86_64 machines
  * This program calls the function program() 

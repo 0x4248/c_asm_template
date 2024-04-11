@@ -3,9 +3,9 @@
     "description": "A template for a C project that uses an assembly file for the startup code.",
     "version": "",
     "main_file": "src/main.c",
-    "author": "Lewis Evans",
+    "author": "0x4248",
     "license": "GNU General Public License v3.0",
-    "url": "https://www.github.com/lewisevans2007/c_asm_template",
+    "url": "https://www.github.com/0x4248/c_asm_template",
     "email": "none",
     "languages": [
         "c",
